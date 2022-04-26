@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AA01-WEATHER-VER02</string>
+
+    <string name="first_Menu">First</string>
+    <string name="first_Selected">First Selected</string>
+    <string name="second_Menu">Second</string>
+    <string name="second_Selected">Second Selected</string>
+    <string name="third_Menu">Third</string>
+    <string name="third_Selected">Third Selected</string>
+
+    <string name="Hello_World">Hello World!</string>
+    <string name="Hello_426">Hello Android 426</string>
+    <string name="fab">FAB Pressed</string>
+    <string name="button">BUTTON</string>
+</resources>

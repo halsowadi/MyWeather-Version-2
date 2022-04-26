@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="City" type="id" />
+    <item name="Weather" type="id" />
+    <item name="WeatherIcon" type="id" />
+    <item name="AddButton" type="id" />
+</resources>

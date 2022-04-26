@@ -7,6 +7,7 @@ This is a prototype/concept weather app. More Versions to come
 App provides 7 predetermined Cities and returns weather information
 Screen One has accurate Data
 Screen Two has placeholder for High, Low, and 3 day forecast
+NOTE: missing API keys
  */
 
 import com.example.aa01_weather_ver02.databinding.ActivityMainBinding;
@@ -39,13 +40,13 @@ public class MainActivity extends AppCompatActivity {
 
      String json = " ";
     //weather json strings
-    final String stringUrl = "https://api.openweathermap.org/data/2.5/weather?zip=48197,us&appid=553a855bc2d549ac8dc0f12b2ef3d5b8";
-    final String stringUrl2 = "https://api.openweathermap.org/data/2.5/weather?zip=85365,us&appid=553a855bc2d549ac8dc0f12b2ef3d5b8";
-    final String stringUrl3 = "https://api.openweathermap.org/data/2.5/weather?zip=99703,us&appid=553a855bc2d549ac8dc0f12b2ef3d5b8";
-    final String stringUrl4 = "https://api.openweathermap.org/data/2.5/weather?zip=48187,us&appid=553a855bc2d549ac8dc0f12b2ef3d5b8";
-    final String stringUrl5 = "https://api.openweathermap.org/data/2.5/weather?zip=78954,us&appid=553a855bc2d549ac8dc0f12b2ef3d5b8";
-    final String stringUrl6 = "https://api.openweathermap.org/data/2.5/weather?zip=12235,us&appid=553a855bc2d549ac8dc0f12b2ef3d5b8";
-    final String stringUrl7 = "https://api.openweathermap.org/data/2.5/weather?zip=48223,us&appid=553a855bc2d549ac8dc0f12b2ef3d5b8";
+    final String stringUrl = "https://api.openweathermap.org/data/2.5/weather?zip=48197,us&appid=XXXXXXXXXXXXXXXXXXXXXXX";
+    final String stringUrl2 = "https://api.openweathermap.org/data/2.5/weather?zip=85365,us&appid=XXXXXXXXXXXXXXXXXXXXXX";
+    final String stringUrl3 = "https://api.openweathermap.org/data/2.5/weather?zip=99703,us&appid=XXXXXXXXXXXXXXXXXXXXXX";
+    final String stringUrl4 = "https://api.openweathermap.org/data/2.5/weather?zip=48187,us&appid=XXXXXXXXXXXXXXXXXXXXXX";
+    final String stringUrl5 = "https://api.openweathermap.org/data/2.5/weather?zip=78954,us&appid=XXXXXXXXXXXXXXXXXXXXXX";
+    final String stringUrl6 = "https://api.openweathermap.org/data/2.5/weather?zip=12235,us&appid=XXXXXXXXXXXXXXXXXXXXXXX";
+    final String stringUrl7 = "https://api.openweathermap.org/data/2.5/weather?zip=48223,us&appid=XXXXXXXXXXXXXXXXXXXXXXX";
 
 //other variables
     double tempHigh;

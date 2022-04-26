@@ -1,0 +1,156 @@
+WEATHER APP PLAN VERSION 01
+
+
+
+Version 01- Create Template Layout 
+ - F/C Icon 
+ - + Icon
+ - Change Background Color
+ - Vertical Bar Containing City forcast 
+ - Textview for City Name
+ - Textview for Weather condition
+ - Textview for Cloud Icon 
+ - ImageButton to add new city (non function for version 1)
+
+
+Difficulity
+Easy:
+	-TextView for City
+	-TextView for Weather Condition
+	-Chaning background color
+	-Changing Horizontal bar color
+	
+
+Moderate:
+	-textview for Weather Icon (Reviewed lecture video/notes)
+	-Changing Default text color https://stackoverflow.com/questions/9593133/how-to-change-default-text-color-using-custom-theme
+	-Removing App name title bar https://stackoverflow.com/questions/26492522/how-do-i-remove-the-title-bar-from-my-app
+Hard:
+	-Vertical Bar Containing city forcast 
+		Steps:
+			1) Create bar
+			2) Add temp textview
+			3) Add high low textview
+			4)Add day1 and day1icon
+			5)Add day2 day2icon, and day3 day3icon
+			6)even out/test different views 
+	-AddButton
+		-Finding Icon  https://stackoverflow.com/questions/36362080/android-fab-plus-sign-not-present-on-android-drawable#:~:text=You%20can%20find%20the%20plus%20icon%20on%20the,In%20the%20Project%20window%2C%20select%20the%20Android%20view.
+		-Transperent background https://stackoverflow.com/questions/3402787/how-to-have-a-transparent-imagebutton-android
+
+
+
+
+
+Weather App Version 02
+
+
+
+
+
+
+Version 02- Weather API
+
+Requirments: 
+Screen One - City List
+List of cities with city name, zip, and current temp
+C/F switch button to toggle C/F values
+Button + with layout only, no actual function
+Live weather information via OpenWeaterMap and Internet
+When launched, 3 cities in the list (48197, 85365, 99703) plus any 2 or more cities of your choice
+Long press the cell to delete it
+Pressing the cell will lead to a detailed weather condition screen
+Create meaningful cell background 
+You may add any meaningful design to improve user experien
+
+Screen Two - Weather Info
+Large weather condition logo
+Weather condition in large font size
+City name and state
+Current temp in F based on the setting of the first screen
+City name, current condition and temp
+No requirement for high/low nor 3-day forecast, just fixed placeholder icons
+Back arrow button and back nav button goes back to city list screen
+No F, dot, or + button at the bottom
+Climacons.ttf for weather condition icons
+You may add any meaningful design to improve user experience
+
+
+
+
+
+
+
+
+Steps)
+	0) Start with Jsonver06
+	1) Pull Live Data
+		-download json
+		-parse json
+		-bind json data
+
+	2)RecylerView (use old RV apps)
+		-Create RV (copy paste from old apps)
+		-Setting Up cardview 
+		-binding recyler view with json data
+ 		-longclick delete (provided method doesnt work, had to make modifications) 
+			https://stackoverflow.com/questions/26673444/remove-row-from-recyclerview
+	4)intent/Screen 2
+		-Create second activity
+		-Create intent 
+		-Copy paste ver01 weather app into new activity
+		-Binding rv data to Detailed Screen
+		-Longpress delete 
+		- C/F converts button
+	5) Weather Icons 
+		-loop or switch for weather icons for each condiditon 
+	4) UI
+		-BackgroundColors 
+		-Griandent 
+		-Text Color/Size
+		-RV Color 
+	6) 
+
+Easy:  
+	-UI Stuff
+		-Gradient 
+		https://stackoverflow.com/questions/13929877/how-to-make-gradient-background-in-android
+		-Image Button 
+		-Colors 
+		
+	-Intent
+		-puts extras 
+		-get extras
+		-animation
+	-Second Activity (copy paste weather app v01)
+		-copy paste
+		-Button to convert from F to C and vise vera 
+		-Weather Icon created switch statment for icons
+	
+
+
+Moderate:
+	-RecyclerView -have notes and lots of RV apps, used these to create rv
+		-cardView
+		-Long Press delete
+HARD:
+	-Json
+		1) get url 
+		2) download url httpsrequest
+		3) parsejson
+		4) Pull live data for city, high low
+		Longest part to figure out 
+		Had issues with runwithUI, had to modify 
+		https://stackoverflow.com/questions/702415/how-to-know-if-other-threads-have-finished	
+
+
+
+
+	
+
+
+Version 03- Fragments (I hope) 
+
+Version 04- Final Version I hope?
+
+Version 05- Final Final Version (after end of course) 
